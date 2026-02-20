@@ -33,10 +33,35 @@ flowchart TD
         F2 --> F3[14. Agentic AI: Autonomous Routing]
     end
 
-    %% Styling for visual distinction
-    classDef default fill:#f9f9f9,stroke:#333,stroke-width:1px;
-    classDef phase fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
-    class A1,A2,B1,B2,C1,C2,D1,D2,D3,E1,E2,F1,F2,F3 default;
+    %% VIBRANT COLOR DEFINITIONS
+    %% P1: Red Orange
+    classDef p1 fill:#d84315,stroke:#bf360c,stroke-width:2px,color:#fff,font-weight:bold;
+    %% P2: Magenta
+    classDef p2 fill:#c2185b,stroke:#880e4f,stroke-width:2px,color:#fff,font-weight:bold;
+    %% P3: Deep Purple
+    classDef p3 fill:#512da8,stroke:#311b92,stroke-width:2px,color:#fff,font-weight:bold;
+    %% P4: Indigo
+    classDef p4 fill:#303f9f,stroke:#1a237e,stroke-width:2px,color:#fff,font-weight:bold;
+    %% P5: Blue
+    classDef p5 fill:#1976d2,stroke:#0d47a1,stroke-width:2px,color:#fff,font-weight:bold;
+    %% P6: Teal
+    classDef p6 fill:#00796b,stroke:#004d40,stroke-width:2px,color:#fff,font-weight:bold;
+
+    %% APPLY STYLES TO NODES
+    class A1,A2 p1;
+    class B1,B2 p2;
+    class C1,C2 p3;
+    class D1,D2,D3 p4;
+    class E1,E2 p5;
+    class F1,F2,F3 p6;
+    
+    %% SUBGRAPH BACKGROUND STYLING (Neutral gray to let nodes stand out)
+    style Phase 1 fill:#f5f5f5,stroke:#ccc,stroke-width:1px,color:#333
+    style Phase 2 fill:#f5f5f5,stroke:#ccc,stroke-width:1px,color:#333
+    style Phase 3 fill:#f5f5f5,stroke:#ccc,stroke-width:1px,color:#333
+    style Phase 4 fill:#f5f5f5,stroke:#ccc,stroke-width:1px,color:#333
+    style Phase 5 fill:#f5f5f5,stroke:#ccc,stroke-width:1px,color:#333
+    style Phase 6 fill:#f5f5f5,stroke:#ccc,stroke-width:1px,color:#333
 ```
 
 ## Overview
